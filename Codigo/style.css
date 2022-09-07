@@ -83,10 +83,23 @@ li {display: inline-block;}
 
 
 /* main */
+h3 {text-align: center;
+border-bottom: 1px solid black;
+margin-bottom: 15px;}
+.link__comprar { margin-left: 90px;
+text-decoration: none;
+color: black;
+border-top: 1px solid black;
+margin-top: 15px;}
+.link__comprar:hover {color: rgb(73, 73, 73);}
 h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: 500;
 border: 1px solid black;
-padding: 10px;}
+padding: 10px;
+
+;}
+.boton {margin-left: 80px;
+margin-bottom: 10px;}
 h1:hover {color: blue;
 background-color: rgb(117, 117, 117);}
 @media screen and (max-width: 500px){.container__inicio {
