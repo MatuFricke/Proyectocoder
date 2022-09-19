@@ -10,7 +10,7 @@ li {
 
 /* Header */
 .header {
-    background-image: linear-gradient(to left, rgb(219, 177, 36), rgb(194, 194, 194));
+    background-image: linear-gradient(to left, $map-get ($colores, primary), $map-get($colores, secondary));
     width: 100%;
 
 }
@@ -183,7 +183,7 @@ h1 {
 
 h1:hover {
     color: blue;
-    background-color: rgb(117, 117, 117);
+    background-color:map-get($map: colores, $key:thirty );
 }
 
 @media screen and (max-width: 500px) {
@@ -208,14 +208,30 @@ h1:hover {
     padding: 1px
 }
 
-.cartas__productos {
-    width: 250px;
+
+// aplicacion de extend y mixin, no encontre otro lugar donde poder utilizarlo//
+
+@mixin sizes ($Acarta, $Lcarta) {
+    height:$Acarta ;
+    width: $Lcarta;
+    
+}
+
+.carta {
+    @include sizes(250px, 250px);
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
+    transition: all 400ms ease;
+}
+
+.cartas__productos {
+
+    @extend.carta;
+
     background-color: rgb(201, 162, 33);
     box-shadow: 0px 1px 10px rgb(0, 0, 8);
-    transition: all 400ms ease;
+
     cursor: default;
 }
 
