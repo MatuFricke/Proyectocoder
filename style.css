@@ -1,0 +1,257 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%; }
+
+.header {
+  position: fixed;
+  background-color: #d1d1d1; }
+
+.logo {
+  height: 90px;
+  width: 110px; }
+
+.buscador {
+  color: #F4FFF8;
+  padding: 5px;
+  border: none;
+  background-color: #E6AF2E;
+  border-radius: 9px;
+  transition: 1s; }
+
+.buscador:hover {
+  border-radius: 0px; }
+
+.nav__fijo {
+  height: 50px;
+  width: 100%;
+  background-color: #E6AF2E;
+  position: sticky;
+  top: 0%;
+  display: flex;
+  justify-content: space-around;
+  transition: 1s;
+  z-index: 10; }
+
+.nav__fijo:hover {
+  background-color: white; }
+
+.links {
+  display: inline;
+  text-decoration: none;
+  color: #f5f5f5;
+  list-style-type: none;
+  margin-top: 13px; }
+
+.links:hover {
+  color: black; }
+
+.container__subtitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.subtitulo {
+  margin-top: 80px;
+  color: #E6AF2E;
+  font-weight: 600;
+  margin-bottom: 80px; }
+
+@media screen and (min-width: 1000px) {
+  .img__carrusel {
+    height: 800px;
+    width: 50px; } }
+
+.container__carta {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px; }
+
+.carta {
+  border: 1px solid black;
+  height: 700px;
+  width: 300px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  transition: 0.5s; }
+
+.carta:hover {
+  box-shadow: 5px 5px 35px 6px #E6AF2E; }
+
+.container__h3 {
+  font-family: "poppins";
+  display: flex;
+  justify-content: center; }
+
+.carta ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5px;
+  margin-top: 30px; }
+
+.carta ul li {
+  border: 1px solid black;
+  padding: 12px;
+  transition: 1s;
+  margin-bottom: 15px; }
+
+.carta ul li:hover {
+  background-color: #E6AF2E;
+  color: white;
+  border: 1px solid white; }
+
+.carta h6 {
+  margin-left: 5px; }
+
+.carta h5 {
+  margin-left: 7px; }
+
+.carta p {
+  margin-left: 13px; }
+
+.carta .boton {
+  text-decoration: none;
+  margin-left: 105px;
+  margin-top: 40px;
+  color: #E6AF2E;
+  border: 1px solid black;
+  padding: 10px;
+  transition: 1s; }
+
+.carta .boton:hover {
+  background-color: #E6AF2E;
+  color: white;
+  border: 1px solid white; }
+
+.botellas {
+  height: 220px;
+  width: 100%; }
+
+.container__caja {
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+  margin-left: 45px;
+  margin-top: 50px;
+  margin-bottom: 300px; }
+
+.container__caja:hover {
+  box-shadow: 5px 5px 35px 6px #E6AF2E; }
+
+.title {
+  margin-left: 10px;
+  margin-top: 10px; }
+
+.items__comentario {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px; }
+
+.textarea {
+  margin-left: 30px;
+  margin-top: 20px; }
+
+.boton__coment {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn__comentario {
+  width: 100px;
+  background-color: #E6AF2E;
+  border: none; }
+
+.btn__comentario:hover {
+  width: 120px; }
+
+@media screen and (min-width: 1000px) {
+  .container__caja {
+    margin-left: 800px;
+    margin-top: 100px; } }
+
+.container__nosotros {
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+  margin: 40px 35px 50px 45px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.container__nosotros h2 {
+  margin-top: 10px;
+  font-family: "poppins";
+  margin-bottom: 0px;
+  font-weight: 700; }
+
+.mapa {
+  height: 200px;
+  width: 200px; }
+
+.container__nosotros:hover {
+  box-shadow: 5px 5px 35px 6px #E6AF2E; }
+
+.container__nosotros p {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0%;
+  font-weight: 300; }
+
+@media screen and (min-width: 1000px) {
+  .container__nosotros1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 200px; } }
+
+.container__form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.carta__login {
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-bottom: 400px; }
+
+.container__h2 {
+  display: flex;
+  justify-content: center; }
+
+.carta__login h2 {
+  margin-top: 10px; }
+
+.carta__login .user {
+  border: none;
+  border-bottom: 1px solid #7a7a7a;
+  width: 295px;
+  margin-top: 30px; }
+
+.container__btnlogin {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+.btnlogin {
+  width: 220px;
+  height: 35px;
+  background-color: #E6AF2E;
+  border-radius: 15px;
+  border: white; }
+
+.container__link__registro {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; }
+
+.link__registro {
+  text-decoration: none; }
